@@ -1,0 +1,200 @@
+/* pt-sans-narrow-regular - latin */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'),
+       url('./fonts/pt-sans-narrow-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/pt-sans-narrow-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/pt-sans-narrow-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+body {
+  text-align: center;
+  font-family: "PT Sans Narrow";
+}
+
+/* Big heading and daily quote */
+.quoteheading {
+  margin: 75px auto 50px auto;
+  background-image: url('../images/whitecolorbackground3.png');
+  height: 125px;
+  display: flex;
+  width: 100%;
+}
+h1 {
+  margin: auto;
+  color: #ffffff;
+  font-size: 100px;
+}
+.dailyquote {
+  margin: 0px auto 75px auto;
+}
+.dailyquote__title {
+  font-size: 100px;
+}
+.dailyquote__quote {
+  font-size: 1.15em;
+}
+
+/* Quotes containers */
+.quotescontainer { /* Big grid */
+  display: grid;
+  grid-template-columns: 1000px;
+  grid-template-rows: repeat(4, 100px);
+  margin: auto auto 100px auto;
+  justify-content: center;
+  grid-template-areas:
+  "love"
+  "art"
+  "life"
+  "funny";
+  color: #ffffff;
+}
+.quotescontainer__love, .quotescontainer__life { /* Love and life grids */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+  "quote subject";
+  height: 100%;
+}
+.quotescontainer__art, .quotescontainer__funny { /* Art and funny grids */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "subject quote";
+  height: 100%;
+}
+
+/* Individual subject and quote boxes */
+.quotescontainer__love {
+  grid-area: love;
+}
+.quotescontainer__art {
+  grid-area: art;
+}
+.quotescontainer__life {
+  grid-area: life;
+}
+.quotescontainer__funny {
+  grid-area: funny;
+}
+.quotescontainer__love__subject, .quotescontainer__art__subject, .quotescontainer__life__subject, .quotescontainer__funny__subject {
+  grid-area: subject;
+  border: 1px solid #ffffff;
+  position: relative;
+}
+.quotescontainer__love__quote, .quotescontainer__art__quote, .quotescontainer__life__quote, .quotescontainer__funny__quote {
+  grid-area: quote;
+  border: 1px solid #ffffff;
+  position: relative;
+}
+.subject {
+  line-height: 100px;
+  font-size: 2em;
+}
+.quote {
+  position: absolute;
+  white-space: nowrap;
+  top: 25px;
+  left: 25px;
+  font-size: 1.2em;
+}
+.author {
+  position: absolute;
+  white-space: nowrap;
+  bottom: 20px;
+  right: 30px;
+  font-size: 1.15em;
+}
+.quotescontainer__love__subject {
+  background-color: #ffffff;
+  color: #660000;
+  transition: 0.3s;
+}
+.quotescontainer__love__subject:hover {
+  background-color: #660000;
+  color: #ffffff;
+}
+.quotescontainer__love__quote {
+  background-color: #c80000;
+}
+.quotescontainer__art__subject {
+  background-color: #ffffff;
+  color: #004788;
+  transition: 0.3s;
+}
+.quotescontainer__art__subject:hover {
+  background-color: #004788;
+  color: #ffffff;
+}
+.quotescontainer__art__quote {
+  background-color: #066ecd;
+}
+.quotescontainer__life__subject {
+  background-color: #ffffff;
+  color: #006531;
+  transition: 0.3s;
+}
+.quotescontainer__life__subject:hover {
+  background-color: #006531;
+  color: #ffffff;
+}
+.quotescontainer__life__quote {
+  background-color: #0ec926;
+}
+.quotescontainer__funny__subject {
+  background-color: #ffffff;
+  color: #9e5101;
+  transition: 0.3s;
+}
+.quotescontainer__funny__subject:hover {
+  background-color: #9e5101;
+  color: #ffffff;
+}
+.quotescontainer__funny__quote {
+  background-color: #d76e00;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/threecolorbackground2.png');
+    color: white;
+    height: 3em;
+    clear: both;
+}
+
+@media (max-width: 1030px) {
+  .quotescontainer {
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(4, 215px);
+  }
+  .quotescontainer__love, .quotescontainer__art, .quotescontainer__life, .quotescontainer__funny {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 115px;
+    grid-template-areas:
+    "subject"
+    "quote";
+  }
+  .quote {
+    white-space: normal;
+  }
+  .author {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 700px) {
+  .quote {
+    left: 3%;
+    right: 3%;
+
+  }
+  .author {
+    left: 3%;
+    right: 3%;
+    bottom: 1px;
+    font-size: 0.5em;
+  }
+}

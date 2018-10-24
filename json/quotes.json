@@ -1,0 +1,57 @@
+[
+  {
+
+    "love": {
+      "quotes": [
+        {
+          "quote": "Love yourself. It is important to stay positive because beauty comes from the inside out.",
+          "author": "Jenn Proske"
+        },
+        {
+          "quote": "There is only one happiness in this life, to love and be loved.",
+          "author": "George Sand"
+        }
+      ]
+    },
+
+    "art": {
+      "quotes": [
+        {
+          "quote": "Life is the art of drawing without an eraser",
+          "author": "John W. Gardner"
+        },
+        {
+          "quote": "The art of communication is the language of leardership.",
+          "author": "James Humes"
+        }
+      ]
+    },
+
+    "life": {
+      "quotes": [
+        {
+          "quote": "The greatest gift of life is friendship, and I have received it.",
+          "author": "Hubert H. Humphrey"
+        },
+        {
+          "quote": "Smile in the mirror. Do that every morning and you'll start to see a big difference in your life.",
+          "author": "Yoko Ono"
+        }
+      ]
+    },
+
+    "funny": {
+      "quotes": [
+        {
+          "quote": "Laziness is nothing more than the habit of resting before you get tired.",
+          "author": "Jules Renard"
+        },
+        {
+          "quote": "A day without sunshine is like, you know, night.",
+          "author": "Steve Martin"
+        }
+      ]
+    }
+
+  }
+]
