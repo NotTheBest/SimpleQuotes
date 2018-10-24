@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  let jsonUrl = "../scripts/json/quotes.json";
+  let jsonUrl = "https://api.jsonbin.io/b/5bd102b451e8b664f2c1501b";
 
   function randomNumber() {
-    let range = 2;
+    let range = 3;
     return Math.floor(Math.random() * range);
   }
 
