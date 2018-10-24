@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  let jsonUrl = "https://api.myjson.com/bins/jl2nw";
+  let jsonUrl = "../scripts/json/quotes.json";
 
   function randomNumber() {
     let range = 2;
@@ -8,7 +8,7 @@ $(document).ready(function(){
   }
 
   $.ajax({
-    url: "http://api.forismatic.com/api/1.0/",
+    url: "https://api.forismatic.com/api/1.0/",
     jsonp: "jsonp",
     dataType: "jsonp",
     data: {

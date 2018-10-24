@@ -10,6 +10,10 @@
         {
           "quote": "There is only one happiness in this life, to love and be loved.",
           "author": "George Sand"
+        },
+        {
+          "quote":"Lovers who love truly do not write down their happiness.",
+          "author": "Antole France"
         }
       ]
     },
@@ -24,6 +28,10 @@
           "quote": "The art of communication is the language of leardership.",
           "author": "James Humes"
         }
+        {
+          "quote": "Oh, thou art fairer than the evening air clad in the beauty of a thousand stars.",
+          "author": "Christopher Marlowe"
+        }
       ]
     },
 
@@ -37,6 +45,10 @@
           "quote": "Smile in the mirror. Do that every morning and you'll start to see a big difference in your life.",
           "author": "Yoko Ono"
         }
+        {
+          "quote": "Accept the terrible responsibility of life with eyes wide open.",
+          "author": "Jordan Peterson"
+        }
       ]
     },
 
@@ -49,6 +61,10 @@
         {
           "quote": "A day without sunshine is like, you know, night.",
           "author": "Steve Martin"
+        }
+        {
+          "quote": "Do not take life too seriously. You will never get out of it alive.",
+          "author": "Elbert Hubbard"
         }
       ]
     }
