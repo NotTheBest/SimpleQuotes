@@ -1,44 +1,34 @@
 $(document).ready(function(){
 
-  let jsonUrl = "https://api.jsonbin.io/b/5bd102b451e8b664f2c1501b";
+  let quoteCount = 20;
+  let dateNow = new Date();
+  let offset = dateNow.getTimezoneOffset() * 60000;
+  let timeNow = dateNow.getTime() - offset;
+  let days = Math.floor(timeNow / 86400000);
+  let quoteDisplay = days % quoteCount;
+  console.log(quoteDisplay);
 
-  function randomNumber() {
-    let range = 3;
-    return Math.floor(Math.random() * range);
-  }
+  //JSON BIN: https://jsonbin.io/5bd102b451e8b664f2c1501b/2
+  //Please do not alter
 
-  $.ajax({
-    url: "https://api.forismatic.com/api/1.0/",
-    jsonp: "jsonp",
-    dataType: "jsonp",
-    data: {
-      method: "getQuote",
-      lang: "en",
-      format: "jsonp"
-    },
-    success: function(data) {
-      $(".dailyquote__quote").html(data.quoteText);
-      $(".dailyquote__author").html(data.quoteAuthor);
-    }
-  });
-
+  let jsonUrl = "https://api.jsonbin.io/b/5bd102b451e8b664f2c1501b/2";
 
   $.getJSON(jsonUrl, function(data) {
-    let loveQuote, loveAuthor, artQuote, artAuthor, lifeQuote, lifeAuthor, funnyQuote, funnyAuthor;
-    let loveNumber = randomNumber();
-    let artNumber = randomNumber();
-    let lifeNumber = randomNumber();
-    let funnyNumber = randomNumber();
-    //$.jsonObj = JSON.parse(JSON.stringify(data));
-    loveQuote = data[0].love.quotes[loveNumber].quote;
-    loveAuthor = data[0].love.quotes[loveNumber].author;
-    artQuote = data[0].art.quotes[artNumber].quote;
-    artAuthor = data[0].art.quotes[artNumber].author;
-    lifeQuote = data[0].life.quotes[lifeNumber].quote;
-    lifeAuthor = data[0].life.quotes[lifeNumber].author;
-    funnyQuote = data[0].funny.quotes[lifeNumber].quote;
-    funnyAuthor = data[0].funny.quotes[lifeNumber].author;
 
+    let dailyQuote, dailyAuthor, loveQuote, loveAuthor, artQuote, artAuthor, lifeQuote, lifeAuthor, funnyQuote, funnyAuthor;
+    dailyQuote = data[0].daily.quotes[quoteDisplay].quote;
+    dailyAuthor = data[0].daily.quotes[quoteDisplay].author;
+    loveQuote = data[0].love.quotes[quoteDisplay].quote;
+    loveAuthor = data[0].love.quotes[quoteDisplay].author;
+    artQuote = data[0].art.quotes[quoteDisplay].quote;
+    artAuthor = data[0].art.quotes[quoteDisplay].author;
+    lifeQuote = data[0].life.quotes[quoteDisplay].quote;
+    lifeAuthor = data[0].life.quotes[quoteDisplay].author;
+    funnyQuote = data[0].funny.quotes[quoteDisplay].quote;
+    funnyAuthor = data[0].funny.quotes[quoteDisplay].author;
+
+    $(".dailyquote__quote").html(dailyQuote);
+    $(".dailyquote__author").html(dailyAuthor);
     $(".quotescontainer__love__quote .quote").html(JSON.stringify(loveQuote));
     $(".quotescontainer__love__quote .author").html("- " + loveAuthor);
     $(".quotescontainer__art__quote .quote").html(JSON.stringify(artQuote));
@@ -47,6 +37,7 @@ $(document).ready(function(){
     $(".quotescontainer__life__quote .author").html("- " + lifeAuthor);
     $(".quotescontainer__funny__quote .quote").html(JSON.stringify(funnyQuote));
     $(".quotescontainer__funny__quote .author").html("- " + funnyAuthor);
+
   });
 
 });

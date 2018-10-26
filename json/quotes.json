@@ -1,5 +1,89 @@
 [
   {
+    "daily": {
+      "quotes": [
+        {
+          "quote": "But man is not made for defeat. A man can be destroyed but not defeated.",
+          "author": "Ernest Hemingway"
+        },
+        {
+          "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+          "author": "Franklin D. Roosevelt"
+        },
+        {
+          "quote": "There is nothing permanent except change.",
+          "author": "Heraclitus"
+        },
+        {
+          "quote": "You cannot shake hands with a clenched fist.",
+          "author": "Indira Gandhi"
+        },
+        {
+          "quote": "All that we see or seem is but a dream within a dream.",
+          "author": "Edgar Allan Poe"
+        },
+        {
+          "quote": "The only journey is the one within.",
+          "author": "Rainer Maria Rilke"
+        },
+        {
+          "quote": "It is far better to be alone, than to be in bad company.",
+          "author": "George Washington"
+        },
+        {
+          "quote": "If you cannot do great things, do small things in a great way.",
+          "author": "Napoleon Hill"
+        },
+        {
+          "quote": "Keep your face always toward the sunshine - and shadows will fall behind you.",
+          "author": "Walt Whitman"
+        },
+        {
+          "quote": "We judge ourselves by our intentions and others by their actions.",
+          "author": "Stephen R. Covey"
+        },
+        {
+          "quote": "Seek first to understand, then to be understood.",
+          "author": "Stephen R. Covey"
+        },
+        {
+          "quote": "A single raindrop never feels responsible for the flood.",
+          "author": "Douglas Adams"
+        },
+        {
+          "quote": "Don't make permanent decisions based on temporary feelings.",
+          "author": ""
+        },
+        {
+          "quote": "Victory does not favor the righteous nor the wicked; it favors the prepared.",
+          "author": ""
+        },
+        {
+          "quote": "A ship in harbor is safe, but that is not what ships are built for.",
+          "author": "John A. Shedd"
+        },
+        {
+          "quote": "",
+          "author": "Stephen McCranie"
+        },
+        {
+          "quote": "A master has failed more times than the beginner has even tried.",
+          "author": ""
+        },
+        {
+          "quote": "Worrying means you suffer twice.",
+          "author": "Newt Scamander"
+        },
+        {
+          "quote": "Every saint has a past, and every sinner has a future.",
+          "author": "Oscar Wilde"
+        },
+        {
+          "quote": "Man cannot remake himself without suffering, for he is both the marble and the sculptor.",
+          "author": "Alexis Carrel"
+        }
+      ]
+    },
 
     "love": {
       "quotes": [
@@ -14,6 +98,74 @@
         {
           "quote":"Lovers who love truly do not write down their happiness.",
           "author": "Antole France"
+        },
+        {
+          "quote": "I love you the more in that I believe you had liked me for my own sake and nothing else.",
+          "author": "John Keats"
+        },
+        {
+          "quote": "It is better to be feared than loved, if you cannot be both.",
+          "author": "Niccolo Machiavelli"
+        },
+        {
+          "quote": "There is no charm equal to tenderness of heart.",
+          "author": "Jane Austen"
+        },
+        {
+          "quote": "Lord, make me an instrument of thy peace. Where there is hatred, let me sow love.",
+          "author": "Francis of Assisi"
+        },
+        {
+          "quote": "Life without love is like a tree without blossoms or fruit.",
+          "author": "Khalil Gibran"
+        },
+        {
+          "quote": "No act of kindness, no matter how small, is ever wasted.",
+          "author": "Aesop"
+        },
+        {
+          "quote": "Love cures people - both the ones who give it and the ones who receive it.",
+          "author": "Karl A. Menninger"
+        },
+        {
+          "quote": "When you compare your insides to other people's outsides, you always lose.",
+          "author": ""
+        },
+        {
+          "quote": "Friends show their love in times of trouble, not in happiness.",
+          "author": "Euripides"
+        },
+        {
+          "quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+          "author": "Lao Tzu"
+        },
+        {
+          "quote": "A good teacher can inspire hope, ignite the imagination, and instill a love of learning.",
+          "author": "Brad Henry"
+        },
+        {
+          "quote": "The most important thing in the world is family and love.",
+          "author": "John Wooden"
+        },
+        {
+          "quote": "Choose a job you love, and you will never have to work a day in your life.",
+          "author": ""
+        },
+        {
+          "quote": "True love cannot be find where it does not exist, nor can it be denied where it does.",
+          "author": "Torquato Tasso"
+        },
+        {
+          "quote": "Never make a decision when you are upset, sad, jealous, or in love.",
+          "author": "Mario Teguh"
+        },
+        {
+          "quote": "Music is love, love is music, music is life, and I love my life. Thank you and good night.",
+          "author": "A. J. McLean"
+        },
+        {
+          "quote": "Love is when the other person's happiness is more important than your own.",
+          "author": "H. Jackson Brown, Jr."
         }
       ]
     },
@@ -31,6 +183,74 @@
         {
           "quote": "Oh, thou art fairer than the evening air clad in the beauty of a thousand stars.",
           "author": "Christopher Marlowe"
+        },
+        {
+          "quote": "Learning never exhausts the mind.",
+          "author": "Leonardo da Vinci"
+        },
+        {
+          "quote": "Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching.",
+          "author": "Satchel Paige"
+        },
+        {
+          "quote": "Youth is the gift of nature, but age is a work of art.",
+          "author": "Stanislaw Jerzy Lec"
+        },
+        {
+          "quote": "In art, the hand can never execute anything higher than the heart can imagine.",
+          "author": "Ralph Waldo Emerson"
+        },
+        {
+          "quote": "Making money is art and working is art and good business is the best art.",
+          "author": "Andy Warhol"
+        },
+        {
+          "quote": "Mathematics is the art of giving the same name to different things.",
+          "author": "Henri Poincare"
+        },
+        {
+          "quote": "Art, freedom and creativity will change society faster than politics.",
+          "author": "Victor Pinchuk"
+        },
+        {
+          "quote": "Love the art in yourself and not yourself in the art.",
+          "author": "Constantin Stanislavski"
+        },
+        {
+          "quote": "The art of simplicity is a puzzle of complexity.",
+          "author": "Douglas Horton"
+        },
+        {
+          "quote": "Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun.",
+          "author": "Pablo Picasso"
+        },
+        {
+          "quote": "This world is but a canvas to our imagination.",
+          "author": "Henry David Thoreau"
+        },
+        {
+          "quote": "Without tradition, art is a flock of sheep without a shepherd. Without innovation, it is a corpse.",
+          "author": "Winston Churchill"
+        },
+        {
+          "quote": "The enemy of art is the absence of limitations.",
+          "author": "Orson Welles"
+        },
+        {
+          "quote": "I don't want life to imitate art. I want life to be art.",
+          "author": "Ernst Fischer"
+        },
+        {
+          "quote": "Love of beauty is taste. The creation of beauty is art.",
+          "author": "Ralph Waldo Emerson"
+        },
+        {
+          "quote": "Medicine is a science of uncertainty and an art of probability.",
+          "author": "William Osler"
+        },
+        {
+          "quote": "Blue thou art, intensely blue; Flower, whence came thy dazzling hue?",
+          "author": "James Montgomery"
         }
       ]
     },
@@ -48,6 +268,74 @@
         {
           "quote": "Accept the terrible responsibility of life with eyes wide open.",
           "author": "Jordan Peterson"
+        },
+        {
+          "quote": "Do not mind anything that anyone tells you about anyone else. Judge everyone and everything for yourself.",
+          "author": "Henry James"
+        },
+        {
+          "quote": "Good judgement comes from experience, and a lot of that comes from bad judgement.",
+          "author": "Will Rogers"
+        },
+        {
+          "quote": "Think in the morning. Act in the noon. Eat in the evening. Sleep in the night.",
+          "author": "William Blake"
+        },
+        {
+          "quote": "Independence is happiness.",
+          "author": "Susan B. Anothony"
+        },
+        {
+          "quote": "Wise men speak because they have something to say; Fools because they have to say something.",
+          "author": "Plato"
+        },
+        {
+          "quote": "Even the longest days are twenty-four hours.",
+          "author": ""
+        },
+        {
+          "quote": "Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.",
+          "author": "Norman Cousins"
+        },
+        {
+          "quote": "Change your life today. Don't gamble on the future, act now, without delay.",
+          "author": "Simone de Beauvoir"
+        },
+        {
+          "quote": "Only I can change my life. No one can do it for me.",
+          "author": "Carol Burnett"
+        },
+        {
+          "quote": "Lighten up, just enjoy life, smile more, laugh more, and don't get so worked up about things.",
+          "author": "Kenneth Branagh"
+        },
+        {
+          "quote": "Because of your smile, you make life more beautiful.",
+          "author": "Thich Nhat Hanh"
+        },
+        {
+          "quote": "There are two great days in a person's life - the day we are born and the day we discover why.",
+          "author": "William Barclay"
+        },
+        {
+          "quote": "Loneliness adds beauty to life. It puts a special burn on sunsets and makes the air smell better.",
+          "author": "Henry Rollins"
+        },
+        {
+          "quote": "Life is full of happiness and tears; be strong and have faith.",
+          "author": "Kareena Kapoor Khan"
+        },
+        {
+          "quote": "My life motto is 'Do my best, so that I can't blame myself for anything.'",
+          "author": "Magdalena Neuner"
+        },
+        {
+          "quote": "Be happy for this moment. This moment is your life.",
+          "author": "Omar Khayyam"
+        },
+        {
+          "quote": "The biggest adventure you can take is to live the life of your dreams.",
+          "author": "Oprah Winfrey"
         }
       ]
     },
@@ -65,6 +353,74 @@
         {
           "quote": "Do not take life too seriously. You will never get out of it alive.",
           "author": "Elbert Hubbard"
+        },
+        {
+          "quote": "Don't ruin a Tuesday wishing it was Friday.",
+          "author": ""
+        },
+        {
+          "quote": "I wish there was a way to know you're in the good old days before you've actually left them.",
+          "author": "Andy Bernard"
+        },
+        {
+          "quote": "You're not in traffic, you are traffic.",
+          "author": ""
+        },
+        {
+          "quote": "You can't blame gravity for falling in love.",
+          "author": "Albert Einstein"
+        },
+        {
+          "quote": "We are all here on earth to help others; what on earth the others are here for I don't know.",
+          "author": "W. H. Auden"
+        },
+        {
+          "quote": "There are only three things women need in life: food, water, and compliments.",
+          "author": "Chris Rock"
+        },
+        {
+          "quote": "Happiness is having a large, loving, caring, close-knit family in another city.",
+          "author": "George Burns"
+        },
+        {
+          "quote": "When we ask for advice, we are usually looking for an accomplice.",
+          "author": "Saul Bellow"
+        },
+        {
+          "quote": "To succeed in life, you need three things: a wishbone, a backbone and a funny bone.",
+          "author": "Reba McEntire"
+        },
+        {
+          "quote": "I may be drunk, Miss, but in th morning I will be sober and you will still be ugly.",
+          "author": "Winston Churchill"
+        },
+        {
+          "quote": "My fake plants died because I did not pretend to water them.",
+          "author": "Mitch Hedberg"
+        },
+        {
+          "quote": "Get your facts first, then you can distort them as you please.",
+          "author": "Mark Twain"
+        },
+        {
+          "quote": "Everything is funny, as long as it's happening to somebody else.",
+          "author": "Will Rogers"
+        },
+        {
+          "quote": "It takes considerable knowledge just to realize the extent of your own ignorance.",
+          "author": "Thomas Sowell"
+        },
+        {
+          "quote": "Go to Heaven for the climate, Hell for the company.",
+          "author": "Mark Twain"
+        },
+        {
+          "quote": "Age is something that doesn't matter, unless you are a cheese.",
+          "author": "Luis Bunuel"
+        },
+        {
+          "quote": "I haven't spoken to my wife in years. I didn't want to interrupt her.",
+          "author": "Rodney Dangerfield"
         }
       ]
     }
