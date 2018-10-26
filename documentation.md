@@ -20,4 +20,5 @@ From this project, I aim to do more projects, possibly one every month, while co
 From here, I want to be able to be pursue frontend web design but to also work on backend languages in the future.
 
 This project was started around October 8 and was concluded around October 26.
+
 -Scott
