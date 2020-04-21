@@ -2,7 +2,7 @@
 
 A clean, responsive website that displays a daily quote and quotes from different subjects.
 
-Quotes update every day.
+Quotes update every day. *Project is archived - quotes will not update*
 
 View this website with [GitHub Pages](https://notthebest.github.io/SimpleQuotes/).
 
