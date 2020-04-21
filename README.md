@@ -1,6 +1,6 @@
 # Simple Quotes
 
-A clean, responsive website that displays a daily quote and quotes from different subjects.
+A clean, __responsive__ website that displays a daily quote and quotes from different subjects.
 
 Quotes update every day. *Project is archived - quotes will not update*
 
